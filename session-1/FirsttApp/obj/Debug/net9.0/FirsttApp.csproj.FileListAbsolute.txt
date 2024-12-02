@@ -1,0 +1,14 @@
+/home/hambz/c#/session-1/FirsttApp/bin/Debug/net9.0/FirsttApp
+/home/hambz/c#/session-1/FirsttApp/bin/Debug/net9.0/FirsttApp.deps.json
+/home/hambz/c#/session-1/FirsttApp/bin/Debug/net9.0/FirsttApp.runtimeconfig.json
+/home/hambz/c#/session-1/FirsttApp/bin/Debug/net9.0/FirsttApp.dll
+/home/hambz/c#/session-1/FirsttApp/bin/Debug/net9.0/FirsttApp.pdb
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/FirsttApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/FirsttApp.AssemblyInfoInputs.cache
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/FirsttApp.AssemblyInfo.cs
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/FirsttApp.csproj.CoreCompileInputs.cache
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/FirsttApp.dll
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/refint/FirsttApp.dll
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/FirsttApp.pdb
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/FirsttApp.genruntimeconfig.cache
+/home/hambz/c#/session-1/FirsttApp/obj/Debug/net9.0/ref/FirsttApp.dll
