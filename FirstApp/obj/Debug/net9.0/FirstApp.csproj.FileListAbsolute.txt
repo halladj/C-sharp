@@ -1,0 +1,14 @@
+/home/hambz/c#/FirstApp/bin/Debug/net9.0/FirstApp
+/home/hambz/c#/FirstApp/bin/Debug/net9.0/FirstApp.deps.json
+/home/hambz/c#/FirstApp/bin/Debug/net9.0/FirstApp.runtimeconfig.json
+/home/hambz/c#/FirstApp/bin/Debug/net9.0/FirstApp.dll
+/home/hambz/c#/FirstApp/bin/Debug/net9.0/FirstApp.pdb
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/FirstApp.AssemblyInfoInputs.cache
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/FirstApp.AssemblyInfo.cs
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/FirstApp.csproj.CoreCompileInputs.cache
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/FirstApp.dll
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/refint/FirstApp.dll
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/FirstApp.pdb
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/FirstApp.genruntimeconfig.cache
+/home/hambz/c#/FirstApp/obj/Debug/net9.0/ref/FirstApp.dll
