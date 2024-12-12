@@ -1,0 +1,15 @@
+/home/hambz/c#/session-2/Session2/bin/Debug/net9.0/Session2
+/home/hambz/c#/session-2/Session2/bin/Debug/net9.0/Session2.deps.json
+/home/hambz/c#/session-2/Session2/bin/Debug/net9.0/Session2.runtimeconfig.json
+/home/hambz/c#/session-2/Session2/bin/Debug/net9.0/Session2.dll
+/home/hambz/c#/session-2/Session2/bin/Debug/net9.0/Session2.pdb
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.AssemblyInfoInputs.cache
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.AssemblyInfo.cs
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.csproj.CoreCompileInputs.cache
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.sourcelink.json
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.dll
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/refint/Session2.dll
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.pdb
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/Session2.genruntimeconfig.cache
+/home/hambz/c#/session-2/Session2/obj/Debug/net9.0/ref/Session2.dll
