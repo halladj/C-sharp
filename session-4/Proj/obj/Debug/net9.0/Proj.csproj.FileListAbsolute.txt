@@ -1,0 +1,15 @@
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.AssemblyInfoInputs.cache
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.AssemblyInfo.cs
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.csproj.CoreCompileInputs.cache
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.sourcelink.json
+/home/hambz/c#/session-4/Proj/bin/Debug/net9.0/Proj
+/home/hambz/c#/session-4/Proj/bin/Debug/net9.0/Proj.deps.json
+/home/hambz/c#/session-4/Proj/bin/Debug/net9.0/Proj.runtimeconfig.json
+/home/hambz/c#/session-4/Proj/bin/Debug/net9.0/Proj.dll
+/home/hambz/c#/session-4/Proj/bin/Debug/net9.0/Proj.pdb
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.dll
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/refint/Proj.dll
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.pdb
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/Proj.genruntimeconfig.cache
+/home/hambz/c#/session-4/Proj/obj/Debug/net9.0/ref/Proj.dll

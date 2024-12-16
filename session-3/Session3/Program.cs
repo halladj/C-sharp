@@ -135,32 +135,32 @@
 //     Console.ResetColor();
 // }
 
-using System.Globalization;
+// using System.Globalization;
 
-string operation;
-int number1 = 0;
-int number2 = 0;
-try{
-    Console.Write("Inter an operation: +, -, *, /, % : ");
-    operation = Console.ReadLine();
+// string operation;
+// int number1 = 0;
+// int number2 = 0;
+// try{
+//     Console.Write("Inter an operation: +, -, *, /, % : ");
+//     operation = Console.ReadLine();
 
-    if (operation != "+" && operation != "-" && 
-        operation != "/" && operation != "%" && operation != "*"){
+//     if (operation != "+" && operation != "-" && 
+//         operation != "/" && operation != "%" && operation != "*"){
 
-            throw new InvalidOperationException();
-    }
-    Console.Write("Enter the first number: ");
-    number1 = int.Parse(Console.ReadLine());
+//             throw new InvalidOperationException();
+//     }
+//     Console.Write("Enter the first number: ");
+//     number1 = int.Parse(Console.ReadLine());
 
-    Console.Write("Enter the second number: ");
-    number2 = int.Parse(Console.ReadLine());
-}
-catch(FormatException){
-    Console.WriteLine("Ops, Enter a valid Number");
-}
-catch(InvalidOperationException){
-    Console.WriteLine("Invalid Operation");
-}
+//     Console.Write("Enter the second number: ");
+//     number2 = int.Parse(Console.ReadLine());
+// }
+// catch(FormatException){
+//     Console.WriteLine("Ops, Enter a valid Number");
+// }
+// catch(InvalidOperationException){
+//     Console.WriteLine("Invalid Operation");
+// }
 
 // int result;
 // if( operation.Equals("+") ){
@@ -183,61 +183,171 @@ catch(InvalidOperationException){
 
 
 
-(string, int, int) GetParams(){
-    try{
-        Console.Write("Enter an operation: +, -, *, /, % : ");
-        operation = Console.ReadLine();
+// (string, int, int) GetParams(){
+//     try{
+//         Console.Write("Enter an operation: +, -, *, /, % : ");
+//         operation = Console.ReadLine();
     
-        if (operation != "+" && operation != "-" && 
-            operation != "/" && operation != "%" && operation != "*"){
-        throw new InvalidOperationException();
-    }
+//         if (operation != "+" && operation != "-" && 
+//             operation != "/" && operation != "%" && operation != "*"){
+//         throw new InvalidOperationException();
+//     }
 
-        Console.Write("Enter the first number: ");
-        number1 = int.Parse(Console.ReadLine());
+//         Console.Write("Enter the first number: ");
+//         number1 = int.Parse(Console.ReadLine());
 
-        Console.Write("Enter the second number: ");
-        number2 = int.Parse(Console.ReadLine());
-    }
-    catch(FormatException)
-    {
-        Console.WriteLine("Ops, Enter a valid Number");
-    }
-    catch(InvalidOperationException)
-    {
-        Console.WriteLine("Invalid Operation");
-    }
-    return (operation, number1, number2 );
+//         Console.Write("Enter the second number: ");
+//         number2 = int.Parse(Console.ReadLine());
+//     }
+//     catch(FormatException)
+//     {
+//         Console.WriteLine("Ops, Enter a valid Number");
+//     }
+//     catch(InvalidOperationException)
+//     {
+//         Console.WriteLine("Invalid Operation");
+//     }
+//     return (operation, number1, number2 );
+// }
+
+
+
+
+
+
+// int calculator() {
+//     string operation="";
+//     int number1 = 0;
+//     int number2 =0;
+
+//     (operation, number1, number2) = GetParams();
+
+//     int result = 0;
+//     if( operation.Equals("+") ){
+//         result = number1 + number2;
+//     }else if(operation.Equals("-")){
+//         result = number1 - number2;
+
+//     }else if(operation.Equals("*")){
+//         result = number1 * number2;
+
+//     }else if(operation.Equals("/")){
+//         result = number1 / number2;
+
+//     }else if(operation.Equals("%")){
+//         result = number1 % number2;
+//     } 
+//     return result;
+// }
+
+// Console.WriteLine(calculator());
+// int vowelCount(string str)
+// {
+//     str = str.ToLower();  
+//     int count = 0;
+    
+//     for (int i = 0; i < str.Length; i++)  
+//     {
+//         char c = str[i];  
+
+//         if (char.IsDigit(c)){
+//             throw new FormatException();
+//         }
+
+//         if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+//         {
+//             count++;
+//         }
+//     }
+        
+//     return count;
+// }
+// Console.Write("Please enter something, but not a numbers!! : ");
+// string s = Console.ReadLine();
+
+// try
+// {
+    
+
+//     Console.WriteLine(vowelCount(s));
+// }
+// catch (FormatException)
+// {
+//     Console.ForegroundColor = ConsoleColor.DarkRed;
+//     Console.WriteLine("Ops, you entered a number, TRY AGAIN!!");
+//     Console.ResetColor();
+// }
+
+
+// bool isPalindrom(string str){
+
+//     if (string.IsNullOrWhiteSpace(str)){
+//         throw new FormatException();
+//     }
+
+//     for (var i = 0; i < str.Length/2; i++){
+//         var j = str.Length -i - 1;
+
+//         if (str[i] == str[j]){
+//             continue;
+//         }else if (! str[i].Equals(str[j]) ){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+
+// Console.Write("Enter a string: ");
+// var str = Console.ReadLine();
+
+// try{
+//     if (isPalindrom(str)){
+//         Console.BackgroundColor = ConsoleColor.Green;
+//         Console.WriteLine("It is palindrom");
+//     } else{
+//         Console.BackgroundColor = ConsoleColor.Red;
+//         Console.WriteLine("It is NOT a palindrom");
+//     }
+// }catch(FormatException){
+//     Console.BackgroundColor = ConsoleColor.Red;
+//     Console.WriteLine("GIVE ME A PROPER STRING");
+// }
+// Console.ResetColor();
+
+
+// Console.Write("Give me a number : ");
+// int day=0;
+// try{
+//     day = int.Parse(Console.ReadLine());
+// }catch(FormatException){
+//     Console.ForegroundColor = ConsoleColor.Red;
+//     Console.Write("This is not a number");
+// }
+
+// switch (day)
+// {
+//     case(1):
+
+//         break;
+    
+//     default:
+//         break;
+// }
+
+void ChangeName(Person p){
+    p.Name = "Houssam";
+}
+class Person{
+    string Name {get; set;}
 }
 
 
 
+Person p = new Person{
+    Name= "hamza"
+};
+Console.WriteLine(p.Name);
+ChangeName(p);
+Console.WriteLine(p.Name);
 
-
-
-int calculator() {
-    string operation="";
-    int number1 = 0;
-    int number2 =0;
-
-    (operation, number1, number2) = GetParams();
-
-    int result = 0;
-    if( operation.Equals("+") ){
-        result = number1 + number2;
-    }else if(operation.Equals("-")){
-        result = number1 - number2;
-
-    }else if(operation.Equals("*")){
-        result = number1 * number2;
-
-    }else if(operation.Equals("/")){
-        result = number1 / number2;
-
-    }else if(operation.Equals("%")){
-        result = number1 % number2;
-    } 
-    return result;
-}
-
-Console.WriteLine(calculator());
