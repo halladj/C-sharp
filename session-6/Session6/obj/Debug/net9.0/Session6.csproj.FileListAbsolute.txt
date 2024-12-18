@@ -1,0 +1,15 @@
+/home/hambz/c#/session-6/Session6/bin/Debug/net9.0/Session6
+/home/hambz/c#/session-6/Session6/bin/Debug/net9.0/Session6.deps.json
+/home/hambz/c#/session-6/Session6/bin/Debug/net9.0/Session6.runtimeconfig.json
+/home/hambz/c#/session-6/Session6/bin/Debug/net9.0/Session6.dll
+/home/hambz/c#/session-6/Session6/bin/Debug/net9.0/Session6.pdb
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.AssemblyInfoInputs.cache
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.AssemblyInfo.cs
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.csproj.CoreCompileInputs.cache
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.sourcelink.json
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.dll
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/refint/Session6.dll
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.pdb
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/Session6.genruntimeconfig.cache
+/home/hambz/c#/session-6/Session6/obj/Debug/net9.0/ref/Session6.dll
