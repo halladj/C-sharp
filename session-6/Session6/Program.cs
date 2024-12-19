@@ -1,35 +1,37 @@
-﻿namespace System.Text.Json;
-class Program
+﻿// public class Box<T> 
+// {
+//     private T _item;
+    
+
+//     public void SetItem(T items)
+//     {
+//         _item = items;
+//     }
+
+//     public T GetItem()
+//     {
+//         return _item;
+//     }
+
+// }
+
+public class Program
 {
-    private static void Main(string[] args)
-    {
-       var employee = new Employee()
-        {
-            Id = 1,
-            FirstName = "John",
-            LastName = "Doe",
-            Age = 30
-        };
+    public static void Main(string[] Args){
+        TodoList td = new TodoList();
 
-        var json = JsonSerializer.Serialize(employee);
-        var johnReborn = JsonSerializer.Deserialize<Employee>(json); 
-
-        File.AppendAllLines("hamza.txt", [json]);
-
-        var readdd = File.ReadAllLines("hamza.txt");
-        foreach (var item in readdd)
-        {
-            var Empobj = JsonSerializer.Deserialize<Employee>(item); 
-            Console.WriteLine(item);
-        }
-
+        td.StoreTask("friday-praier");
+        td.StoreTask("Eating Breakfast");
+        td.PrintAllTasks();
+        Console.WriteLine(td.GetTask(2).TaskName);
+        td.DeleteTask(1);
+        td.PrintAllTasks();
     }
-}
 
-
-public record Employee{
-    public int Id {get; set;}
-    public string? FirstName {get; set;}
-    public string? LastName {get; set;}
-    public int Age {get; set;}
+    // public static void PrintList(List<int> l){
+    //     Console.Write("[");
+    //     l.ForEach(e => Console.Write($" {e} "));
+    //     Console.Write("]");
+    //     Console.WriteLine("");
+    // }
 }
