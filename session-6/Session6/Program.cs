@@ -20,6 +20,7 @@ public class Program
     public static void Main(string[] Args){
         TodoList td = new TodoList();
 
+
         td.StoreTask("friday-praier");
         td.StoreTask("Eating Breakfast");
         td.PrintAllTasks();
