@@ -1,0 +1,15 @@
+/home/hambz/c#/HomeWork/bin/Debug/net9.0/HomeWork
+/home/hambz/c#/HomeWork/bin/Debug/net9.0/HomeWork.deps.json
+/home/hambz/c#/HomeWork/bin/Debug/net9.0/HomeWork.runtimeconfig.json
+/home/hambz/c#/HomeWork/bin/Debug/net9.0/HomeWork.dll
+/home/hambz/c#/HomeWork/bin/Debug/net9.0/HomeWork.pdb
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.AssemblyInfoInputs.cache
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.AssemblyInfo.cs
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.csproj.CoreCompileInputs.cache
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.sourcelink.json
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.dll
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/refint/HomeWork.dll
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.pdb
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/HomeWork.genruntimeconfig.cache
+/home/hambz/c#/HomeWork/obj/Debug/net9.0/ref/HomeWork.dll
