@@ -1,0 +1,15 @@
+/home/hambz/c#/last_session/Client/bin/Debug/net9.0/Client
+/home/hambz/c#/last_session/Client/bin/Debug/net9.0/Client.deps.json
+/home/hambz/c#/last_session/Client/bin/Debug/net9.0/Client.runtimeconfig.json
+/home/hambz/c#/last_session/Client/bin/Debug/net9.0/Client.dll
+/home/hambz/c#/last_session/Client/bin/Debug/net9.0/Client.pdb
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.AssemblyInfoInputs.cache
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.AssemblyInfo.cs
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.csproj.CoreCompileInputs.cache
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.sourcelink.json
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.dll
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/refint/Client.dll
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.pdb
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/Client.genruntimeconfig.cache
+/home/hambz/c#/last_session/Client/obj/Debug/net9.0/ref/Client.dll

@@ -1,28 +1,34 @@
 
+using System.Text.Json;
+
 public class FileLibrary : ILibrary
 {
     public List<IBook> Books { get; set; }
 
-    private const string FILE_NAME= "LIBRARY_DB";
+    private const string FILE_NAME= "LIBRARY_DB.json";
 
-    FileLibrary(){
+    public FileLibrary()
+    {   
         Books = new List<IBook>();
-        string[] temp;
-        if (File.Exists(FILE_NAME)){
-            temp = File.ReadAllLines(FILE_NAME);
 
-            foreach (var item in temp)
-            {   var s = item.Split(",");
-                Books.Add(new Book{
-                    Name = s[0], 
-                    Description= s[1]
-                });
-            }
-        }else
+        if (File.Exists(FILE_NAME))
         {
-            using (var f = File.Create(FILE_NAME))
+            var content = File.ReadAllLines(FILE_NAME);
+            foreach (var item in content)
             {
-                f.Close();
+                if (!string.IsNullOrWhiteSpace(item))
+                {
+                    var o = JsonSerializer.Deserialize<Book>(item);
+                    Books.Add(o);
+                }
+                
+            }
+        }
+        else
+        {
+            using ( var file = File.Create(FILE_NAME))
+            {
+                file.Close();
             }
         }
     }
@@ -30,12 +36,26 @@ public class FileLibrary : ILibrary
     public void AddBook(IBook book)
     {
         // same code as before.
+        Books.Add(book);
 
         // add it to the file.
+
+        // Convert List<IBook> to a List<string>
+        // using JsonSerialize.Serialize();
+        List<string> temp = new List<string>();
+        foreach (var item in Books)
+        {
+            temp.Add(JsonSerializer.Serialize<IBook>(item));
+        }
+
+        File.WriteAllLines(FILE_NAME, temp.ToArray());
     }
 
     public void DisplayAll()
     {
-        // same code as before
+        foreach (var book in Books)
+        {
+            book.DisplayInfo();
+        }
     }
 }

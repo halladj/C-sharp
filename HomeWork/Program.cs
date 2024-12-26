@@ -10,13 +10,21 @@ Book book2 = new Book{
 // book1.DisplayInfo();
 // Console.WriteLine(book1);
 
-Book book3 = new Book{};
-book3.Name        = Console.ReadLine();
-book3.Description = Console.ReadLine();
+// Book book3 = new Book{};
+// book3.Name        = Console.ReadLine();
+// book3.Description = Console.ReadLine();
 
-Library lib = new Library();
-lib.AddBook(book1);
-lib.AddBook(book2);
-lib.AddBook(book3);
+// Library lib = new Library();
+// lib.AddBook(book1);
+// lib.AddBook(book2);
+// lib.AddBook(book3);
 
-lib.DisplayAll();
+// lib.DisplayAll();
+
+FileLibrary fl = new FileLibrary();
+
+
+fl.AddBook(book1);
+fl.AddBook(book2);
+
+fl.DisplayAll();

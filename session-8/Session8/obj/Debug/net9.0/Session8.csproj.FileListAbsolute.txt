@@ -1,0 +1,15 @@
+/home/hambz/c#/session-8/Session8/bin/Debug/net9.0/Session8
+/home/hambz/c#/session-8/Session8/bin/Debug/net9.0/Session8.deps.json
+/home/hambz/c#/session-8/Session8/bin/Debug/net9.0/Session8.runtimeconfig.json
+/home/hambz/c#/session-8/Session8/bin/Debug/net9.0/Session8.dll
+/home/hambz/c#/session-8/Session8/bin/Debug/net9.0/Session8.pdb
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.AssemblyInfoInputs.cache
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.AssemblyInfo.cs
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.csproj.CoreCompileInputs.cache
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.sourcelink.json
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.dll
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/refint/Session8.dll
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.pdb
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/Session8.genruntimeconfig.cache
+/home/hambz/c#/session-8/Session8/obj/Debug/net9.0/ref/Session8.dll
