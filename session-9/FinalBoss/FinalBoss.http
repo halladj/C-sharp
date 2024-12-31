@@ -1,0 +1,6 @@
+@FinalBoss_HostAddress = http://localhost:5185
+
+GET {{FinalBoss_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
