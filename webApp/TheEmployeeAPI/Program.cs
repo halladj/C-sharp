@@ -38,7 +38,7 @@ employeeRoute.MapGet("{id:int}", ([FromRoute]int id) => {
     return Results.Ok(employee);
 });
 
-employeeRoute.MapPut("{id}", (Employee employee, int id) => {
+employeeRoute.MapPut("{id}", ([FromBody]Employee employee, int id) => {
     var existingEmployee = employees.SingleOrDefault(e => e.Id == id);
     if (existingEmployee == null)
     {

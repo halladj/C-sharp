@@ -1,0 +1,15 @@
+/home/hambz/c#/session-9/client/bin/Debug/net9.0/client
+/home/hambz/c#/session-9/client/bin/Debug/net9.0/client.deps.json
+/home/hambz/c#/session-9/client/bin/Debug/net9.0/client.runtimeconfig.json
+/home/hambz/c#/session-9/client/bin/Debug/net9.0/client.dll
+/home/hambz/c#/session-9/client/bin/Debug/net9.0/client.pdb
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.GeneratedMSBuildEditorConfig.editorconfig
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.AssemblyInfoInputs.cache
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.AssemblyInfo.cs
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.csproj.CoreCompileInputs.cache
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.sourcelink.json
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.dll
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/refint/client.dll
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.pdb
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/client.genruntimeconfig.cache
+/home/hambz/c#/session-9/client/obj/Debug/net9.0/ref/client.dll
