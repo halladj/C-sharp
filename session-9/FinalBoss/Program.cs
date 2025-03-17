@@ -3,7 +3,27 @@ using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+ 
+}
+
+
+app.Use(async (HttpContext context, RequestDelegate next) =>
+{
+    context.Response.Headers.Append("Content-Type", "text/html");
+    await context.Response.WriteAsync("<h1>Welcome to Ahoy!</h1>");
+});
+
+
+
 TodoStore s = new TodoStore();
 
 // Restfull API Design
@@ -45,3 +65,10 @@ app.MapPut("/task/{id:int}", ([FromRoute] int id, [FromBody] Task task) => {
 });
 
 app.Run();
+
+
+
+
+
+
+

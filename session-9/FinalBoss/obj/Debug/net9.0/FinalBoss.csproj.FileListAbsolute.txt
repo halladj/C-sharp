@@ -33,3 +33,13 @@
 /home/hambz/c#/session-9/FinalBoss/obj/Debug/net9.0/FinalBoss.genruntimeconfig.cache
 /home/hambz/c#/session-9/FinalBoss/obj/Debug/net9.0/ref/FinalBoss.dll
 /home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/TODOS_DB.json
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Google.Api.CommonProtos.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Google.Protobuf.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Grpc.AspNetCore.Server.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Grpc.Core.Api.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Grpc.Net.Common.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Microsoft.AspNetCore.Grpc.JsonTranscoding.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Microsoft.AspNetCore.Grpc.Swagger.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/hambz/c#/session-9/FinalBoss/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
